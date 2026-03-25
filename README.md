@@ -1,4 +1,4 @@
-# 🎮 Noobs United
+# 🎮 Noobs United 🎮
 
 > Plan your day with the crew — location, time, game & snacks. All in one place.
 
@@ -9,8 +9,7 @@ noobs-united/
 ├── src/
 │   ├── App.jsx          # Main app (all screens + Supabase logic)
 │   ├── main.jsx         # React entry point
-│   └── lib/
-│       └── supabase.js  # Supabase client
+│   |── supabase.js  # Supabase client
 ├── schema.sql           # Database schema (run in Supabase)
 ├── index.html
 ├── vite.config.js
@@ -52,4 +51,3 @@ noobs-united/
 ## 🔒 Security Note
 
 Passwords are stored as plain text — fine for a private friends app.
-To upgrade, use `pgcrypto` in Supabase or switch to Supabase Auth.
